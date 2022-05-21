@@ -1,0 +1,246 @@
+.headline {
+    text-align: center;
+    font-size: 3.1vw;
+    font-weight: 700;
+}
+
+.contacts-whole {
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+
+.contacts-info {
+    width: 55vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 14vw;
+    gap: 5vw;
+    font-size: 1.5vw;
+}
+
+.contacts-imgs {
+    width: 45vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-right: 4vw;
+}
+
+.contacts-info-individual {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+}
+
+.contacts-info-parts {
+    display: flex;
+    width: 35vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+}
+
+.contacts-thicc {
+    font-weight: 600;
+}
+
+.contacts-img-top {
+    height: 17vw;
+    width: 25vw;
+    background-image: url(../Imgs/NaMusilech26.png);
+    background-size: cover;
+    background-position: center;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+.contacts-img-map {
+    height: 25vw;
+    width: 35vw;
+    background-image: url(http://www.cukrarna-vyrobna.cz/foto-jak%20k%20n%C3%A1m/mapa.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+@media (max-width:1200px) {
+    .headline {
+        padding-top: 3vw;
+        margin-bottom: -3vw;
+    }
+
+    .contacts-whole {
+        padding-bottom: 5vw;
+        padding-top: 4vw;
+    }
+}
+
+@media (max-width:1000px) {
+    .headline {
+        text-align: center;
+        font-size: 3.3vw;
+        font-weight: 700;
+    }
+
+    .contacts-whole {
+        width: 100%;
+        height: 45vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .contacts-info {
+        width: 60vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 9vw;
+        gap: 4vw;
+        font-size: 1.7vw;
+    }
+
+    .contacts-imgs {
+        width: 40vw;
+    }
+
+    .contacts-info-parts {
+        display: flex;
+        width: 40vw;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2vw;
+    }
+
+}
+
+@media (max-width:850px) {
+    .headline {
+        padding-top: 8vw;
+    }
+}
+
+@media (max-width:800px) {
+    .headline {
+        text-align: center;
+        font-size: 3.5vw;
+        font-weight: 700;
+    }
+
+    .contacts-whole {
+        width: 100%;
+        height: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 17vw;
+    }
+
+    .contacts-info {
+        width: 60vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 9vw;
+        gap: 5vw;
+        font-size: 1.9vw;
+    }
+
+    .contacts-imgs {
+        padding-top: 40vw;
+        width: 40vw;
+    }
+
+    .contacts-info-parts {
+        display: flex;
+        width: 45vw;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2vw;
+    }
+
+}
+
+@media (max-width:650px) {
+    .headline {
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    .contacts-whole {
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -1vw;
+    }
+
+    .contacts-info {
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 14vw;
+        gap: 5vw;
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+
+    .contacts-imgs {
+        width: 45vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+        padding-right: 4vw;
+    }
+
+    .contacts-info-individual {
+        display: flex;
+        flex-direction: column;
+        gap: 0.7vw;
+        line-height: 3vw;
+    }
+
+    .contacts-info-parts {
+        width: 70vw;
+        gap: 2vw;
+        line-height: 3vw;
+    }
+
+    .contacts-img-top {
+        height: 35vw;
+        width: 50vw;
+        margin-top: -30vw;
+    }
+
+    .contacts-img-map {
+        height: 45vw;
+        width: 60vw;
+    }
+}
